@@ -46,5 +46,16 @@ return [
         ],
         */
     ],
+//    'as myBehavior' =>'backend\components\MyBehavior',
+    'as myBehavior' => [
+        'class' => 'backend\components\MyBehavior',
+        'allowActions' => [
+            '*'
+        ]
+    ],
+//    'as myBehavior2' => myBehavior::className(),
+//    'as access' => [
+//        'class' => 'backend\components\AccessControl',
+//    ],
     'params' => $params,
 ];

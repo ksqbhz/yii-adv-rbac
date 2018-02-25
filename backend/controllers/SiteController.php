@@ -12,9 +12,27 @@ use common\models\LoginForm;
  */
 class SiteController extends Controller
 {
-    /**
-     * @inheritdoc
-     */
+//    /**
+//     * @inheritdoc
+//     */
+//    public function behaviors()
+//    {
+//        return [
+//            //附加行为
+////            'myBehavior' => \backend\components\MyBehavior::className(),
+////            'as access' => [
+////                'class' => 'backend\components\AccessControl',
+////            ],
+//            'verbs' => [
+//                'class' => VerbFilter::className(),
+//                'actions' => [
+//                    'delete' => ['POST','GET'],
+//                ],
+//            ],
+//        ];
+//    }
+
+
     public function behaviors()
     {
         return [
